@@ -1,0 +1,5 @@
+<library path="lib/libdynamic_obstacle_layer">
+  <class type="dynamic_obstacle_layer::DynamicObstacleLayer" base_class_type="costmap_2d::Layer">
+    <description>A dynamic obstacle layer for costmap_2d which adds costs only when observation is true</description>
+  </class>
+</library>
